@@ -1,21 +1,20 @@
 {
- "IntendedFor": "ses-mri/anat/sub-11_ses-mri_acq-mprage_T1w.nii",
  "AnatomicalMRICoordinateSystem": "NIfTI",
  "AnatomicalMRICoordinateUnits": "mm",
  "CoilCoordinates": {
-   "coil1": [66.025078, -6.711707, 85.921310],
-   "coil2": [9.619443, 93.035206, 71.800768],
-   "coil3": [14.971674, -34.622818, 120.660856],
-   "coil4": [12.257700, -90.743288, 66.279061],
-   "coil5": [-67.288347, -13.503596, 89.329392]
+  "coil1": [66.02507799999999,-6.711707,85.92131000000001],
+  "coil2": [9.619443,93.035206,71.80076800000001],
+  "coil3": [14.971674,-34.622818,120.660856],
+  "coil4": [12.2577,-90.74328800000001,66.279061],
+  "coil5": [-67.288347,-13.503596,89.329392]
  },
  "CoilCoordinateSystem": "Elekta/Neuromag",
  "CoilCoordinateUnits": "mm",
  "CoilCoordinateSystemDescription": "5 HPI coils used",
  "LandmarkCoordinates": {
-   "LPA": [-66.551946, 0.000018, 0.000009],
-   "NAS": [0.000004, 94.645500, 0.000007],
-   "RPA": [66.072658, 0.000014, 0.000007]
+  "LPA": [-66.551946,1.8e-05,9e-06],
+  "RPA": [66.072658,1.4e-05,7e-06],
+  "Nasion": [4e-06,94.6455,7e-06]
  },
  "LandmarkCoordinateUnits": "mm",
  "LandmarkCoordinateSystem": "Elekta/Neuromag",
@@ -29,5 +28,11 @@
  "DigitizedHeadPoints": "sub-11_ses-meg_headshape.pos",
  "DigitizedHeadPointsCoordinateSystem": "Elekta/Neuromag",
  "DigitizedHeadPointsCoordinateUnits": "mm",
- "DigitizedHeadPointsCoordinateSystemDescription": "Headpoints include arcs of points along front of head and around nose, as well as centre of 70 EEG electrodes spread across scalp, which also help define headshape. Beware that nose points can bias coregistration with MRI if MRI image does not include all of the nose."
+ "DigitizedHeadPointsCoordinateSystemDescription": "Headpoints include arcs of points along front of head and around nose, as well as centre of 70 EEG electrodes spread across scalp, which also help define headshape. Beware that nose points can bias coregistration with MRI if MRI image does not include all of the nose.",
+ "AssociatedMRI": "sub-11/ses-mri/anat/sub-11_ses-mri_acq-mprage_T1w.nii",
+ "AnatomicalLandmarkCoordinates": {
+  "Nasion": [4.3,110.2,-15.5],
+  "LPA": [-68.90000000000001,21.8,-39.5],
+  "RPA": [70.40000000000001,18.4,-42.9]
+ }
 }
